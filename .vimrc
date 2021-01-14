@@ -8,7 +8,7 @@ call plug#end()
 syntax on
 colorscheme gruvbox
 set background=dark
-set number
+set number relativenumber
 set expandtab
 set incsearch
 
