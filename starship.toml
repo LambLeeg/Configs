@@ -8,7 +8,8 @@ disabled = true
 # Replace the "❯" symbol in the prompt with "➜"
 [character]
 #success_symbol = "[➜](bold green)"   
-success_symbol = "[👻🌿 ➜](bold green)"
+#success_symbol = "[👻🌿 ➜](bold green)"
+success_symbol = "[🌀🎈 ↠](bold blue)"
 
 # Disable the package module, hiding it from the prompt completely
 #[package]
