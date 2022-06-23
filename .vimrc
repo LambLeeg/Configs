@@ -17,8 +17,11 @@ set number relativenumber
 set expandtab
 set incsearch
 set shell=/bin/sh
+set shiftwidth=4
+set mouse=a
 
+imap ii <Esc>
 map <F5> :wq! <CR>
 map <F4> :q! <CR>
 map <F3> :w! <CR>
-map <F2> :NERDTreeToggle <CR>
+map <F2> :NERDTreeToggle<CR>
