@@ -116,5 +116,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-eval "$(starship init bash)"
+export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
