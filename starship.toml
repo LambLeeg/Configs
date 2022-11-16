@@ -16,7 +16,7 @@ tag_symbol = "🔖 "
 
 [time]
 disabled = false
-format = '🕙[\[ $time \]]($style) '
+format = '🕙[\[ $time \]](bold purple) '
 time_format = "%T"
 utc_time_offset = "+3"
 #time_range = "10:00:00-14:00:00"
@@ -34,11 +34,10 @@ format =  "The [$hostname](bold blue) machine "
 trim_at = ".companyname.com"
 disabled = false
 
-# Replace the "❯" symbol in the prompt with "➜"
 [character]
 #success_symbol = "[➜](bold green)"   
-#success_symbol = "[👻🌿 ➜](bold green)"
-success_symbol = "[🌀🎈 ↠](bold blue)"
+success_symbol = "[👻🌿 ➜](bold green)"
+#success_symbol = "[🌀🎈 ↠](bold blue)"
 #success_symbol = "[🦎🐧 ⇨](bold green)"
 #success_symbol = "[🎩🌀 →](bold blue)"
 
@@ -48,6 +47,3 @@ success_symbol = "[🌀🎈 ↠](bold blue)"
 
 [java]
 symbol = "🌟 "
-
-
-
